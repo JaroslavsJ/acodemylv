@@ -247,7 +247,7 @@ public class Variables {
         boolean b13 = (b10==b12);
         boolean b14 = (b10!=b12);
 
-        //commit
+        // Add comment
 
     }
 
