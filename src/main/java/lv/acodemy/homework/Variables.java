@@ -14,20 +14,53 @@ public class Variables {
         byte y = 50;
         System.out.println(y);
 
-        byte b = 15;
-        Byte n1 = new Byte (b);
-        Byte n2 = new Byte("8");
-        System.out.println(n1);
-        System.out.println(n2);
 
         byte a = 50;
         byte d = 50;
         byte c = (byte) (a + d);
         System.out.println(+ c);
 
-        Byte b1=39;
-        byte b2=b1.byteValue();
-        System.out.println(b2);
+        byte Nov_Monday = 2;
+        byte Nov_Tuesday = 3;
+        byte Nov_Wednesday = 2;
+        byte Nov_Thursday = 1;
+        byte Nov_Friday = 4;
+        byte Total_lunch = (byte) (Nov_Monday + Nov_Tuesday + Nov_Wednesday + Nov_Thursday + Nov_Friday);
+        System.out.println("Total lunches per week = "+ Total_lunch);
+
+
+
+        byte Monday = 8;
+        byte Tuesday = 8;
+        byte Wednesday = 8;
+        byte Thursday = 8;
+        byte Friday = 8;
+        byte Total_hours = (byte) (Monday + Tuesday + Wednesday + Thursday + Friday);
+        System.out.println("Total hours per week = "+ Total_hours);
+
+        byte Myage = 40;
+        byte Wifeage = 28;
+        byte Togetherage = (byte) (Myage + Wifeage);
+        System.out.println("Togerher our age is "+ Togetherage);
+
+        byte Linj = 6;
+        byte plotva = 33;
+        byte lesh = 15;
+        byte karp = 2;
+        byte Total = (byte) (Linj + plotva+lesh+karp);
+        System.out.println("Итого Штук "+ Total);
+
+
+        byte Grape_Snail_2018_pcs = 2;
+        byte Grape_Snail_2019_pcs = 30;
+        byte Grape_Snail_2020_pcs = 90;
+        byte Grape_Snail_2022_pcs = 98;
+        byte StayAtm = (byte) (Grape_Snail_2018_pcs + Grape_Snail_2019_pcs + Grape_Snail_2020_pcs - Grape_Snail_2022_pcs);
+        System.out.println("Осталось после приготовления улиток "+ StayAtm);
+
+
+
+
 
         // N2 - short
         short salary = 2000;
